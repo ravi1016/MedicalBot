@@ -9,4 +9,4 @@ RUN uv sync
 
 EXPOSE 8080
 
-CMD ["uv", "run", "app.py"]
+CMD ["uv", "run", "src/app.py"]
